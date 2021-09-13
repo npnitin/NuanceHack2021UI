@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+.box { width:100%;box-shadow:3px 3px 2px #666767;height:30px; }
+.red { background-color:#ff0000; }
+.yellow { background-color:#ffff00; }
+.green { background-color:#00ff00; }
+
+.highlight{
+font-weight: bold;
+
+background-color: inherit;
+}
+
+.tableData{
+  float: left;
+}
+
+.PersonType{
+background-color: lightblue;
+}
+.Quantity{
+ background-color: lightcoral;
+}
+.DateTime{
+background-color: lightcyan;
+}
+.Product{
+background-color: lightseagreen;
+}
+.Skill{
+background-color: magenta;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
